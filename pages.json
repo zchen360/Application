@@ -1,0 +1,84 @@
+{
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "uni-app",
+			"navigationStyle": "custom"
+		}
+	}    ,{
+            "path" : "pages/User/User",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "User",
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/favorite/favorite",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "Favoute",
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/List/List",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "List",
+				"navigationStyle": "custom"
+            }
+            
+        },{
+            "path" : "pages/favorite/favoriteinfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "List",
+				"navigationStyle": "custom"
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+		"color": "#e9d2aa",
+		"selectedColor": "#ff9a0c",
+		"list": [
+			{
+				"iconPath": "static/icon/home.png",
+				"pagePath": "pages/index/index",
+				"selectedIconPath": "static/icon/home-1.png",
+				"text": "Home"
+				
+			},
+			{
+				"iconPath": "static/icon/user.png",
+				"pagePath": "pages/User/User",
+				"selectedIconPath": "static/icon/user-1.png",
+				"text": "User"
+			},
+			{
+				"iconPath": "static/icon/star.png",
+				"pagePath": "pages/favorite/favorite",
+				"selectedIconPath": "static/icon/star-1.png",
+				"text": "Favorite"
+			},
+			{
+				"iconPath": "static/icon/list.png",
+				"pagePath": "pages/List/List",
+				"selectedIconPath": "static/icon/list-1.png",
+				"text": "List"
+			}
+		]
+	}
+}
